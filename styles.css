@@ -96,7 +96,7 @@ body{
 }
 
 .nav-text-color:hover{
-    color:violet;
+    color:violet !important;
 }
 
 
