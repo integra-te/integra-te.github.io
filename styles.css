@@ -93,11 +93,25 @@ body{
 
 .nav-text-color{
     color:white !important;
+    padding-right: 1.5rem !important;
 }
 
-.nav-text-color:hover{
+@media (min-width: 992px){
+    .nav-text-color:hover{
     color:violet !important;
+    transform: scale(1.2);
+    
+    }
+    .nav-text-color{
+    transition:transform .2s;
+    }
 }
+
+ .nav-text-color:hover{
+    color:violet !important;
+    }
+
+
 
 
 /*-----------------------------------FORM-------------------------------------------*/
