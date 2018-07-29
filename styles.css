@@ -87,6 +87,18 @@ body{
    height: 50%;
 }
 
+.container-homepage{
+    height: calc(100% - 276px);
+}
+
+.nav-text-color{
+    color:white;
+}
+
+.nav-text-color:hover{
+    color:violet;
+}
+
 
 /*-----------------------------------FORM-------------------------------------------*/
 /* Style inputs with type="text", select elements and textareas */
