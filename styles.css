@@ -92,7 +92,7 @@ body{
 }
 
 .nav-text-color{
-    color:white;
+    color:white !important;
 }
 
 .nav-text-color:hover{
