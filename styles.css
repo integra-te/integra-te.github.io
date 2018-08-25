@@ -15,16 +15,20 @@ p{
 }
 
 img{
-    width: 200px;
-    height:250px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 250px;
+    height:300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 body{
     background-image: url(images/background-image.jpg);
     background-size: cover;
     height: 100%;
+}
+
+form{
+    font-family: 'Roboto';
 }
 
 @media (max-width: 1200px){
@@ -42,20 +46,32 @@ body{
 .container-experience{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin:16px;
+    font-family: 'Roboto';
 }
 
 .experience{
     margin:1.33%;
-  	border-radius: 10px;
-    box-shadow: 3px 3px #8886D9; 
+  	border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.experience:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+}
+
+.text-container{
+    width: 250px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .image-home{
 	width: 100%;
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .container-text{
@@ -111,6 +127,40 @@ body{
     color:violet !important;
     }
 
+ .link{
+     color: black;
+ }
+
+ .link:hover{
+     color: violet;
+     text-decoration: none;
+ }
+
+ .workshops-title{
+     text-align: center;
+ }
+
+ .about-me{
+     font-family: 'Roboto';
+ }
+
+ .yoga-container{
+    font-family: 'Roboto';
+ }
+
+ .terapias-container{
+     font-family: 'Roboto';
+ }
+
+ .btn-violet{
+     border-color: violet;
+     color: white;
+ }
+
+ .btn-violet:hover{
+     background-color: violet;
+     color: white;
+ }
 
 
 
@@ -214,4 +264,12 @@ align-items: center;
 
 .container-form{
     height: 100%;
+}
+
+@media(min-width:768px){
+    .footer-experiences{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 }
