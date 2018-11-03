@@ -142,6 +142,15 @@ form{
 
  .about-me{
      font-family: 'Roboto';
+     background-color: white;
+     margin: 24px;
+     padding: 16px;
+     border-radius: 5px;
+     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .about-me-text{
+     text-align: justify;
  }
 
  .yoga-container{
