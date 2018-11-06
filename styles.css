@@ -204,7 +204,7 @@ form{
  }
 
  .card-1{
-    transform: translateY(297px);
+    transform: translateY(209px);
  }
 
  .card-2{
@@ -212,14 +212,10 @@ form{
 }
 
 .card-3{
-    transform: translateY(121px);
-}
-
-.card-4{
     transform: translateY(169px);
 }
 
-.card-5{
+.card-4{
     transform: translateY(97px); 
 }
 
@@ -347,7 +343,7 @@ align-items: center;
     width: 100%;
 }
 
-@media (max-width: 1761px){
+@media (max-width: 1375px){
     .footer-experiences{
         position: relative;
         bottom: 0;
