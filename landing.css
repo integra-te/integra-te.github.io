@@ -43,19 +43,19 @@ body {
   background-image: url(images/dani-princess.jpg) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(images/yoga.jpg);
+  background-image: url(images/caroussel-1.jpeg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(images/plane.jpg);
+  background-image: url(images/caroussel-3.jpeg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(images/cat-pimp.jpg);
+  background-image: url(images/caroussel-5.jpeg);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(images/background-image.jpg);
+  background-image: url(images/caroussel-6.jpeg);
   animation-delay: 40s; 
 }
 
